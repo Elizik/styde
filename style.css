@@ -1,0 +1,144 @@
+body{
+    font-family: 'Baloo 2';
+    font-style: normal;
+    font-size: 16px;
+    line-height: 25px;
+    font-weight: normal;
+    color: black;
+  } 
+  .wrapper{
+      max-width: 1000px;
+      margin: 0 auto;
+  }
+  
+/*
+Начало*/
+  .header{
+      background-color: aliceblue;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 20%;
+  }
+  .header_wrapper{
+      display: flex;
+      flex-wrap: wrap;
+      align-items: flex-end;
+      justify-content: space-between;
+      padding-top: 40px;
+  }
+  .header_list{
+      display: flex;
+      flex-wrap: wrap;
+      float:right;
+      
+  }
+  .header_item{
+    display: inline;
+  }
+  .header_item:nth-child{
+      margin-right: 0px;
+  }
+.header_link{
+    font-size: 16px;
+    line-height: 25px;
+    color: #000000;
+    text-emphasis: none;
+}
+.header_link:hover, .header_link:focus, .header_link:active{
+    color: aliceblue;
+}
+/* конец*/
+
+/*intro*/
+.intro {
+    min-height: 100vh;
+    padding-top: 590px;
+    margin-left: 3%;
+}
+
+.intro__title {
+    font-size: 30px;
+    line-height: 40px;
+    margin-bottom: 29px;
+    margin-left: 1%;
+
+}
+
+.intro__subtitie {
+    font-size: 20px;
+    line-height: 26px;
+    font-family: Baloo 2;
+    max-width: 640px;
+    margin-left: 1%;
+}
+
+.intro__sub {
+    font-size: 20px;
+    line-height: 26px;
+    font-family: Baloo 2;
+    max-width: 660px;
+    margin-left: 1%;
+    margin-bottom: 23px
+}
+
+.intro__s {
+    font-size: 20px;
+    line-height: 26px;
+    font-family: Baloo 2;
+    max-width: 660px;
+    margin-left: 1%;
+}
+
+.caption-bottom {
+    position: absolute;
+    left: 770px;
+    top: 900px;
+
+}
+
+.caption {
+    width: 80px;
+    height: 80px;
+    left: 146px;
+}
+
+.ruk {
+    width: 396px;
+    height: 52px;
+    left: 242px;
+}
+
+.container {
+    border-radius: 80px;
+    padding: 20px;
+    margin: 20px 0;
+}
+
+.container::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.container img {
+    float: left;
+    margin-right: 20px;
+    border-radius: 90%;
+}
+
+.container span {
+    font-size: 16px;
+    margin-right: 2px;
+}
+
+@media (max-width: 100px) {
+    .container {
+        text-align: center;
+    }
+
+    .container {
+        margin: auto;
+        float: none;
+        display: block;
+    }
